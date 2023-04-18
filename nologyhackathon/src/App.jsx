@@ -1,17 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import CodeWars from "./Mac/CodeWars";
+import React from "react";
+import Github from "./Martin/Github.jsx";
+import GitHubInfo from "./Nathan/components/GitHubInfo/GitHubInfo";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div className="App">
-      <CodeWars username={"xNapha"} />
-    </div>
-  );
+    return (
+        <>
+            <GitHubInfo />
+        </>
+    );
 }
 
 export default App;
