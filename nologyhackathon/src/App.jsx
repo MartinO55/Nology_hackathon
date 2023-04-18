@@ -1,4 +1,5 @@
 import "./App.css";
+
 import CodeWars from "./Mac/CodeWars";
 import Header from "./Martin/Header/Header";
 import Github from "./Martin/Github";
@@ -11,6 +12,6 @@ function App() {
       <Github username={"xNapha"} />
     </div>
   );
-}
+
 
 export default App;
