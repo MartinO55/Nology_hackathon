@@ -12,6 +12,5 @@ function App() {
       <Github username={"xNapha"} />
     </div>
   );
-
-
+}
 export default App;
