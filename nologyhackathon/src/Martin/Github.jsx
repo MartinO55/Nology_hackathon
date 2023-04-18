@@ -1,5 +1,5 @@
 import React from "react";
-import { fetchGithub } from "./Githubcall.js";
+import { fetchGithubRepos, fetchGithubContributions } from "./Githubcall.js";
 import { useState, useEffect } from "react";
 
 const Github = ({ username }) => {

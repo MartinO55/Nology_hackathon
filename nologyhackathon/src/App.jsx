@@ -1,15 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import CodeWars from "./Mac/CodeWars";
+import Header from "./Martin/Header/Header";
+import Github from "./Martin/Github";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
+      <Header username={"xNapha"} />
       <CodeWars username={"xNapha"} />
+      <Github username={"xNapha"} />
     </div>
   );
 }
