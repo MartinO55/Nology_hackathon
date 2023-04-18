@@ -10,13 +10,10 @@ function App() {
   return (
     <div className="App">
       <Header username={"xNapha"} />
-      <CodeWars username={"xNapha"} />
-       <CodewarsCont />
+      <CodewarsCont />
       <Github username={"xNapha"} />
-      
     </div>
   );
-
-
+}
 
 export default App;
