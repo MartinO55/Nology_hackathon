@@ -8,7 +8,11 @@ const Github = ({ username }) => {
 
   return (
     <>
-      <div></div>
+      <div>
+        <h3>Github</h3>
+        <button onClick={fetchGithubContributions}>Contributions</button>
+        <button onClick={fetchGithubRepos}>Repos</button>
+      </div>
     </>
   );
 };

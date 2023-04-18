@@ -1,6 +1,6 @@
 export const fetchGithubRepos = async (username = "xNapha") => {
   const headers = {
-    Authorization: "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",
+    Authorization: "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",
   };
 
   const body = {
