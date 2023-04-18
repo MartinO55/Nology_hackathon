@@ -1,10 +1,12 @@
 export const fetchGithubRepos = async (username = "xNapha") => {
-    const headers = {
-        Authorization: "bearer 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",
-        "Content-Type": "application/json",
-    };
-    const body = {
-        query: `query {
+
+  const headers = {
+    Authorization: "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",
+  };
+
+  const body = {
+    query: `query {
+
         user(login: "${username}") {
             repositories(first: 50, isFork: false, orderBy: { field: UPDATED_AT, direction: DESC }) {
                 nodes {

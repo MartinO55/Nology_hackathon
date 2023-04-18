@@ -1,14 +1,17 @@
 import "./App.css";
-import React from "react";
-import Github from "./Martin/Github.jsx";
-import GitHubInfo from "./Nathan/components/GitHubInfo/GitHubInfo";
+
+import CodeWars from "./Mac/CodeWars";
+import Header from "./Martin/Header/Header";
+import Github from "./Martin/Github";
 
 function App() {
-    return (
-        <>
-            <GitHubInfo />
-        </>
-    );
-}
+  return (
+    <div className="App">
+      <Header username={"xNapha"} />
+      <CodeWars username={"xNapha"} />
+      <Github username={"xNapha"} />
+    </div>
+  );
+
 
 export default App;
